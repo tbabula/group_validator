@@ -1,4 +1,4 @@
-#Tool to validate if any membership group is missing for a server
+#Tool to validate if any membership group is missing on a server for a specific user
 
 #!/usr/bin/python3.9
 
