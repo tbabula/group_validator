@@ -12,7 +12,7 @@ clush_bin="/usr/bin/clush"
 clush_sw="-w"
 clush_opt="nodename[001-050]" # Specify a range of cluster nodes with a hostname
 clush_cmd="id"
-clush_cmd_arg1="target_groupname" # Specify a user account to be checked
+clush_cmd_arg1="target_groupname" # Specify a group account to be checked
 
 clush = subprocess.Popen([clush_bin,clush_sw,clush_opt,clush_cmd,clush_cmd_arg1], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
